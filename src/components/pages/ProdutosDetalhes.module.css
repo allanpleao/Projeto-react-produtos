@@ -1,0 +1,13 @@
+.produtoDetalhes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        width: 250px;
+    }
+}
+
+.produtoNome {
+    grid-row: 2;
+}
+

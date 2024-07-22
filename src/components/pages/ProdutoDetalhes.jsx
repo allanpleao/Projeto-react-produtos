@@ -29,9 +29,9 @@ const ProdutoDetalhes = () => {
     <section>
          <div className={styles.produtoDetalhes}>
             <img src={produto.fotos[0].src} alt="" />
-            <h2>{produto.id}</h2>
-            <p>{produto.preco}</p>
-            <p>{produto.descricao}</p>
+            <h2 className={styles.produtoNome}>{produto.id}</h2>
+            <p className={styles.produtoPreco}>{produto.preco}</p>
+            <p className={styles.produtoDescricao}>{produto.descricao}</p>
          </div>
     </section>
   )

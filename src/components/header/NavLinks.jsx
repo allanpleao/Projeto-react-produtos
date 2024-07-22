@@ -7,7 +7,7 @@ const NavLinks = () => {
         <Link to={"/Produtos"}>Produtos</Link>
       </li>
       <li>
-        <Link to={"/SignIn"}>SignIn</Link>
+        <Link to={"/SignIn"}>Entrar</Link>
       </li>
     </div>
   );

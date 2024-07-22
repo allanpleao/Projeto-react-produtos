@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { GET_ALL_PRODUTOS, GET_PRODUTO } from "../api";
 import { useFetch } from "../../hooks/useFetch";
 import styles from "./Produtos.module.css";
-import Input from "../Input";
+import Input from "../input/Input";
 import { useNavigate } from "react-router-dom";
 import ProdutoContext from "../../ProdutoContext";
 import { Error, Loading } from '../helper'
@@ -56,8 +56,8 @@ const Produtos = () => {
       <section className="container">
         <h1 className="title">Lista de Produtos</h1>
         <Input
+          placeholder="Buscar..."
           value={busca}
-          label="Encontre um produto"
           onChange={handleSearch}
         />
         <div className={`${styles.produtos} `}>
