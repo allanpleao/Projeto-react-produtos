@@ -1,0 +1,15 @@
+.inputWrapper {
+    text-align: center;
+    margin: 4rem 0 4rem 0;
+}
+
+.input {
+padding: 0.5rem;
+width: 100%;
+}
+
+.label {
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
